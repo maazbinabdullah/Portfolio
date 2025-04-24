@@ -18,7 +18,7 @@ const Header = () => {
           transition: 'all 0.8s ease-out',
         }}
       >
-        <h1>Maaz Bin Abdulla</h1>
+        <h1>Maaz Bin Abdullah</h1>
         <p>Full Stack Developer | Backend Laravel | React.js </p>
       </div>
     </header>
