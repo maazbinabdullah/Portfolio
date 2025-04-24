@@ -1,0 +1,50 @@
+:root {
+  --bg: #f2f2f2;
+  --text: #333;
+  --card-bg: white;
+  --link-hover: #007bff;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #e0e0e0;
+  --card-bg: #1e1e1e;
+  --link-hover: #66b2ff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.App {
+  text-align: center;
+}
+
+.section {
+  padding: 60px 20px;
+}
+
+img.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
